@@ -3,6 +3,8 @@ import re
 import numpy as np
 import FastaFile
 
+# song@mpipz.mpg.de
+
 class Transcript:
     chromosome_name = ""
     if_orf_conserved = True

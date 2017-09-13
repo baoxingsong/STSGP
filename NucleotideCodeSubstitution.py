@@ -7,6 +7,9 @@ import numpy as np
 
 import FastaFile
 
+# song@mpipz.mpg.de
+
+
 location = os.path.dirname(sys.argv[0])
 location = os.path.join(location,"SpliceSites")
 

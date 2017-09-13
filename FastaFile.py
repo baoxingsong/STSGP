@@ -1,6 +1,8 @@
 #!python
 import re
 
+# song@mpipz.mpg.de
+
 class Fasta:
     name = ""
     seq = ""

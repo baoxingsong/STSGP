@@ -9,6 +9,8 @@ import numpy as np
 
 import math
 
+# song@mpipz.mpg.de
+
 _buckets = []
 
 def read_data(gffFile, fastaFile):
