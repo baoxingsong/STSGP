@@ -43,7 +43,7 @@ def readFastaFile(fastaFile):
 
 
 def getReverseComplementary(sequence):
-    reversecomplementary=[];
+    reversecomplementary=[]
     for c in  sequence[::-1]:
         if ('A' == c):
             c = 'T'
@@ -70,15 +70,15 @@ def getReverseComplementary(sequence):
         elif ('D' == c):
             c = 'H'
         elif ('H' == c):
-            c = 'D';
-        reversecomplementary.append(c);
+            c = 'D'
+        reversecomplementary.append(c)
 
-    return ''.join(reversecomplementary);
+    return ''.join(reversecomplementary)
 
 
 def getSubSequence(fastas, name, start, end, strand):
     # get a sequence fragment from fasta records
-    start = start -1;
+    start = start -1
     if start > len(fastas[name].seq):
         return ""
     if end  >  len(fastas[name].seq):

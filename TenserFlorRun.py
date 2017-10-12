@@ -19,9 +19,9 @@ def read_data(gffFile, fastaFile):
     GffFile.update_sequence_information(fastas, chromosome_gene_dict)
 
     #get the gene with longest length
-    #delete ORF-shirt transcript
+    #delete ORF-shift transcript
     #delete gene without transcript
-    #keep only on transcript for each gene
+    #keep only one transcript for each gene
     longest_gene = 0
     for chromosome_name in chromosome_names:
         gene_names_to_delete = []
